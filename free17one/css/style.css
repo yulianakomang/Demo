@@ -1,0 +1,193 @@
+.menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	display: block;
+	padding: 10px 12px;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+	text-decoration: none;
+	color: #2d2d2d;
+}
+.menu li a:hover{
+	background: #2d2d2d;
+	color: #fefefe;
+}
+#content{
+	/*-webkit-columns: 5 160px;
+	-moz-columns: 5 160px;
+	-o-columns: 5 160px;
+	columns: 5 160px;
+	-webkit-column-gap: 15px;
+	-moz-column-gap: 15px;
+	-o-column-gap: 15px;
+	column-gap: 15px;*/
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#content article{
+	float: left;
+	width: 20%;
+}
+article{
+	/*margin-bottom: 15px;*/
+}
+article img{
+	width: 100%;
+}
+.space{
+	padding: 7.5px;
+	clear: both;
+}
+.floor{
+	margin-bottom: 15px;
+}
+.progress {
+    position: relative;
+	height: 25px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 800;
+	padding: 3px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+	padding: 3px 10px 2px;
+}
+.title-profile{
+	font-size: 32px;
+	margin-top: 0;
+}
+.right-side{
+	float: right;
+}
+.btn-facebook {
+    background-color: #3D5B96 !important;
+    width: 51px;
+    color:#FFFFFF!important;
+}
+.btn-twitter {
+    background-color: #3399CC !important;
+    width: 51px;
+    color:#FFFFFF!important;
+}
+.btn-instagram {
+    background-color: #32adad !important;
+    width: 51px;
+    color:#FFFFFF!important;
+}
+.btn-google {
+    background-color: #DD3F34 !important;
+    width: 51px;
+    color:#FFFFFF!important;
+}
+.bold{
+	font-weight: 700;
+}
+#footer{
+	padding: 15px;
+	color: #a0a0a0;
+	background: #e8e5e5;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#footer a{
+	color: #afa0a0;
+}
+#footer a:hover{
+	color: #428bca;
+}
+.hub{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.hub li{
+	font-size: 18px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease-out;
+}
+.hub i{
+	padding-right: 15px;
+}
+.hub li:hover{
+	border-bottom: 2px solid #2d2d2d;
+}
+.big-title{
+	font-size: 43px;
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+input[type="text"].inhub,input[type="submit"].inhub,input[type="email"].inhub{
+	width: 100%;
+	border-radius: 4px;
+	height: 32px;
+	border:1px solid #afa0a0;
+	margin-bottom: 10px;
+}
+textarea.inhub{
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+input[type="submit"].inhub{
+	background: #428bca;
+	border-color: #428bca;
+	color: #fff;
+	font-weight: 400;
+}
+.pagination{
+	text-align: center;
+	width: 100%;
+	float: right;
+}
+.pager{
+	display: inline-block;
+}
+.pager a{
+	display: block;
+	padding: 10px 14px;
+	border: 1px solid #aba5a5;
+	width: auto;
+	color: #aba5a5;
+	font-weight: 600;
+	text-decoration: none;
+}
+.pager a:hover{
+	background: #2d2d2d;
+	color: #fefefe;
+}
+@media screen and (max-width: 992px) {
+	#content article{
+		width: 25%;
+	}
+}
+@media screen and (max-width: 728px) {
+	#content article{
+		width: 33.33%;
+	}
+}
+@media screen and (max-width: 500px) {
+	#content article{
+		width: 50%;
+	}
+}
